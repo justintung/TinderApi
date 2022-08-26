@@ -30,10 +30,10 @@ class Tinder:
             debug (bool, optional): If you want to see everything that happens while you're using the package. Defaults to False.
             locale (str, optional): No idea what this actually does, but defaults to en.
         """
+        self.locale = args.get("locale") if args.get("locale") else "en"
         self.debugger = Debugger(debug=True) if debug else Debugger()
         self.s = Session(self, **args)
         self.next_page_token = ""
-        self.locale = args.get("locale") if args.get("locale") else "en"
         self.contact_types = ["snapchat", "instagram"]
         self.util = Utils(self)
         self.media = Media(self)
