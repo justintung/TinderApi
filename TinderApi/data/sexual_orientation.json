@@ -1,0 +1,14 @@
+{
+  "name": "sexual_orientations",
+  "data": [
+    { "id": "str", "name": "Straight", "checked": false },
+    { "id": "gay", "name": "Gay", "checked": false },
+    { "id": "les", "name": "Lesbian", "checked": false },
+    { "id": "bi", "name": "Bisexual", "checked": false },
+    { "id": "asex", "name": "Asexual", "checked": false },
+    { "id": "demi", "name": "Demisexual", "checked": false },
+    { "id": "pan", "name": "Pansexual", "checked": false },
+    { "id": "qur", "name": "Queer", "checked": false },
+    { "id": "ques", "name": "Questioning", "checked": false }
+  ]
+}
