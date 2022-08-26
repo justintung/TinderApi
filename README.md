@@ -1,6 +1,10 @@
 # TinderApi
 
-An unofficial api wrapper for tinder. For more examples, check the example folder.
+An unofficial api wrapper for tinder. For more examples, check the tests folder.
+
+## Installation
+
+`pip install MTinderApi`
 
 ```py
 from TinderApi import Tinder
