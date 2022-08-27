@@ -1,0 +1,17 @@
+[project]
+name = "MTinderApi"
+version = "0.0.3"
+authors = [
+  { name="cexyboy" },
+]
+description = "An unofficial api wrapper for tinder."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cexyboy/TinderApi"
+"Bug Tracker" = "https://github.com/cexyboy/TinderApi/issues"

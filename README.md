@@ -1,7 +1,27 @@
-# TinderApi
+# Unofficial Tinder-API in Python
 
-An unofficial api wrapper for tinder. For more examples, check the tests folder.
+An unofficial api wrapper for tinder.
+To see more examples, check the tests folder.
+For any problems you may have, open an issue in this repo.
 
+|Api Type | Info
+|--- | ---
+|✔️ Authentication| `Supports authentication both login & providing already existing auth`
+|✔️ Registering|`Supports registering a new account if you do not have one`
+|✔️ Messaging|`Supports sending & getting messages from/to matches`
+|✔️ Swiping|`Supports fetching users to swipe on & liking/passing on them`
+|✔️ Matches|`Supports fetching matches & messages with matches`
+|✔️ Users|`Supports getting user data by id/username`
+|✔️ Account|`Supports getting account data and editing account`
+|✔️ Spotify|`Supports getting popular playlists/songs on tinder today`
+|✔️ Captcha Solver|`Supports captcha solving with 2captcha, currently this is not used`
+|✔️ Tinder+ Support|`Supports tinder gold/premium/platinum features if you have it`
+|❌ Media| `Currently i do not have a solution to uploading photos/media to profile, But protobufs & endpoints are implemented.`
+
+### Installation
+`pip install MTinderApi`
+
+**Getting users to swipe and swiping**
 ```py
 from TinderApi import Tinder
 
@@ -14,7 +34,7 @@ for user in users_to_swipe:
 ```
 
 
-# Login to tinder
+**Logging in to tinder**
 ```py
 from TinderApi import Tinder
 
@@ -26,7 +46,7 @@ tinder.login(
 )
 ```
 
-# Register a new account
+**Registering a new account**
 ```py
 from TinderApi import Tinder
 

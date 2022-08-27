@@ -7,6 +7,7 @@ import requests
 import string
 import random
 import secrets
+
 class Session():
     def __init__(self, api, **args) -> None:
         self.api = api

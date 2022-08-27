@@ -64,7 +64,7 @@ class Utils:
             new_swipes.append({
                 "user_id": user["_id"],
                 "bio": user["bio"],
-                "birth_date": user["birth_date"],
+                "birth_date": user["birth_date"] if 'birth_date' in user else 'No birth date found...',
                 "name": user["name"],
                 "city": user["city"] if 'city' in user else {"name": "Unknown"},
                 "schools": user["schools"],
@@ -89,7 +89,7 @@ class Utils:
                 "created_at": user["created_date"],
                 "user_id": user["person"]["_id"],
                 "bio": user["person"]["bio"] if "bio" in user["person"] else "No bio found...",
-                "birth_date": user["person"]["birth_date"],
+                "birth_date": user["person"]["birth_date"] if 'birth_date' in user["person"] else 'No birth date found...',
                 "name": user["person"]["name"],
                 "gender": user["person"]["gender"],
                 "last_active": user["last_activity_date"],
